@@ -6,4 +6,5 @@ class Dog
   end
   
   def initialize(breed)
-    if 
+    defined?(breed)
+    
