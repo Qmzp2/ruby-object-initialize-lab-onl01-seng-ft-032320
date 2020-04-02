@@ -7,4 +7,6 @@ class Dog
   
   def initialize(breed)
     defined?(breed)
-    
+    @breed = breed
+  end
+end
